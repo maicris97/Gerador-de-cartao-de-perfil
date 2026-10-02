@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.from {
+    background-color: rgb(242, 255, 126);
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.from h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(63, 134, 111);
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    opacity: o.8;
+}
+
+.card {
+    background-color: rgb(126, 135, 255);
+    width: 350px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(38, 245, 200, 0.1);
+}
+
+.none {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cargo {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.contador {
+    margin-top: 15px;
+}
